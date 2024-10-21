@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+}
+
+nav{
+height: 100px;
+padding: 16px;    
+}
+nav ul li#logo{
+    font-family: fantasy;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+}
+li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #010D00;
+}
+
+.hero-wrapper{
+    height:100vh;
+    background-image: url("./assests/hero.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero.container{
+    position:absolute;
+    height: fit-content;
+    top:500px;
+}
+/* resume styles */
+#resume{
+    padding: 16px;
+background-color: #D2D9D8;
+}
+
+
+#resume h2{
+margin-top: 8px;
+margin-bottom: 8px;
+}
+#resume .container{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#resume a{
+    color:#010D00;
+
+}
+#resume .container img{
+width:100px;
+height:100px;
+border-radius: 50%;
+
+}
+/* Projects styles */
+#projects{
+    padding: 16px;
+background-color: #88A672;
+}
+#projects .project-grid{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#projects .project{
+    width:300px;
+    height: 500px;
+
+}
+
+#projects .project img{
+    width:100%;
+    height:200px;
+}
+
+#projects h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    }
+#about-us{
+    padding: 16px;
+    background-color: #D2D9D8;
+}
+#about-us .profiles{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+#about-us .profiles .profile{
+
+display: flex;
+gap: 16px;
+}
+#about-us .profiles .profile img{
+    width:100px;
+    height:100px;
+
+}
+
+#contact-us{
+    display: flex;
+    padding:16px;
+color:#D2D9D8;
+    background-color: #40592E;
+    gap: 8px;
+}
+#contact-us  a{
+    list-style: none;
+    text-decoration: none;
+    color:#88A672;
+
+}
